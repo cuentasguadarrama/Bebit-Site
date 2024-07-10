@@ -1,10 +1,39 @@
-import React from 'react'
-
-import PropTypes from 'prop-types'
-
-import './contact-form10.css'
+import React, { useState } from "react";
+import PropTypes from "prop-types";
+import axios from "axios";
+import "./contact-form10.css";
 
 const ContactForm10 = (props) => {
+  // Contact Form setup
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+    subject: "compras",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post("http://localhost:5000/api/send-email", formData)
+      .then((response) => {
+        console.log("Response:", response);
+        alert("Email sent successfully!");
+      })
+      .catch((error) => {
+        console.error("There was an error sending the email!", error);
+        alert("Failed to send email.");
+      });
+  };
+
   return (
     <div
       className={`contact-form10-contact11 thq-section-padding ${props.rootClassName} `}
@@ -18,7 +47,11 @@ const ContactForm10 = (props) => {
           </div>
         </div>
         <div className="contact-form10-content1">
-          <form className="contact-form10-form thq-card">
+          {/* Contact form */}
+          <form
+            className="contact-form10-form thq-card"
+            onSubmit={handleSubmit}
+          >
             <div id="Nombre" className="contact-form10-input">
               <label htmlFor="contact-form-10-name" className="thq-body-small">
                 <span className="">Nombre</span>
@@ -26,9 +59,13 @@ const ContactForm10 = (props) => {
               </label>
               <input
                 type="text"
+                name="name"
+                placeholder="Nombre completo"
+                value={formData.name}
+                onChange={handleChange}
                 id="contact-form-10-name"
-                placeholder="Nombre Completo"
                 className="thq-input"
+                required
               />
             </div>
             <div className="contact-form10-input1">
@@ -36,11 +73,14 @@ const ContactForm10 = (props) => {
                 Email
               </label>
               <input
-                type="text"
+                type="email"
+                name="email"
+                placeholder="Correo electrónico"
+                value={formData.email}
+                onChange={handleChange}
                 id="contact-form-10-email"
-                required="true"
-                placeholder="Email"
                 className="contact-form10-text-input1 thq-input"
+                required
               />
             </div>
             <div className="contact-form10-container">
@@ -52,17 +92,20 @@ const ContactForm10 = (props) => {
                   Escoge una opción:
                 </label>
                 <select
+                  name="subject"
+                  value={formData.subject}
+                  onChange={handleChange}
                   id="contact-form-10-options"
                   placeholder="Select one"
                   className="thq-select"
                 >
-                  <option value="Option 1" className="">
+                  <option value="purchases" className="">
                     Compras
                   </option>
-                  <option value="Option 1" className="">
-                    Servicio a Cliente
+                  <option value="customer support" className="">
+                    Servicio al cliente
                   </option>
-                  <option value="Option 1" className="">
+                  <option value="sales" className="">
                     Ventas
                   </option>
                 </select>
@@ -77,9 +120,12 @@ const ContactForm10 = (props) => {
                 <br className=""></br>
               </label>
               <textarea
-                id="contact-form-10-message"
+                name="message"
+                placeholder="Escribe tu mensaje aquí"
+                value={formData.message}
+                onChange={handleChange}
                 rows="3"
-                placeholder="Escribe tu mensaje"
+                id="contact-form-10-message"
                 className="thq-input"
               ></textarea>
             </div>
@@ -139,23 +185,23 @@ const ContactForm10 = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 ContactForm10.defaultProps = {
-  content2: '',
-  phone: '+123-456-7890',
-  email: 'info@bebit.com.mx',
+  content2: "",
+  phone: "+123-456-7890",
+  email: "info@bebit.com.mx",
   location1GoogleMap:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91160.77077631063!2d26.012237766112886!3d44.43779612993267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucharest!5e0!3m2!1sen!2sro!4v1713441854828!5m2!1sen!2sro',
-  submitAction: 'Enviar',
-  rootClassName: '',
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91160.77077631063!2d26.012237766112886!3d44.43779612993267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucharest!5e0!3m2!1sen!2sro!4v1713441854828!5m2!1sen!2sro",
+  submitAction: "Enviar",
+  rootClassName: "",
   content1:
-    'Tienes alguna duda de nuestros servicios? Escríbenos y con gusto te ayudaremos.',
-  contactTitle: 'Contacto',
-  address: 'Cipreses 77',
-  text: 'I accept the Terms',
-}
+    "Tienes alguna duda de nuestros servicios? Escríbenos y con gusto te ayudaremos.",
+  contactTitle: "Contacto",
+  address: "Cipreses 77",
+  text: "I accept the Terms",
+};
 
 ContactForm10.propTypes = {
   content2: PropTypes.string,
@@ -168,6 +214,6 @@ ContactForm10.propTypes = {
   contactTitle: PropTypes.string,
   address: PropTypes.string,
   text: PropTypes.string,
-}
+};
 
-export default ContactForm10
+export default ContactForm10;

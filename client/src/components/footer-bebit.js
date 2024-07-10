@@ -1,11 +1,34 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
-import PropTypes from 'prop-types'
-
-import './footer-bebit.css'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
+import PropTypes from "prop-types";
+import "./footer-bebit.css";
 
 const FooterBebit = (props) => {
+  // Subscribe Form setup
+  const [email, setEmail] = useState("");
+
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post("http://localhost:5000/api/subscribe", { email })
+      .then((response) => {
+        console.log("Response:", response);
+        alert("Subscription request received successfully!");
+      })
+      .catch((error) => {
+        console.error(
+          "There was an error with the subscription request!",
+          error
+        );
+        alert("Failed to process subscription request.");
+      });
+  };
+
   return (
     <div className={`footer-bebit-container ${props.rootClassName} `}>
       <div className="footer-bebit-frame63">
@@ -15,7 +38,7 @@ const FooterBebit = (props) => {
               Nuestras Marcas
               <span
                 dangerouslySetInnerHTML={{
-                  __html: ' ',
+                  __html: " ",
                 }}
               />
             </span>
@@ -63,24 +86,26 @@ const FooterBebit = (props) => {
               </span>
             </span>
             <div className="footer-bebit-actions">
-              <div className="footer-bebit-form">
-                <input
-                  type="text"
-                  id="newsletter"
-                  placeholder={props.textinputPlaceholder}
-                  className="footer-bebit-textinput input"
-                />
-                <a
-                  href="mailto:correo@bebit.com.mx?subject="
-                  className="footer-bebit-link"
-                >
+              {/* Subscription Form */}
+              <form onSubmit={handleSubmit}>
+                <div className="footer-bebit-form">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Correo electrónico"
+                    value={email}
+                    onChange={handleChange}
+                    className="footer-bebit-textinput input"
+                    required
+                  />
                   <div className="footer-bebit-style-secondary-small-false-darkmode-false-iconposition-n">
-                    <span className="footer-bebit-text03">
+                    <button className="footer-bebit-text03">
                       <span className="">Suscribirse</span>
-                    </span>
+                    </button>
                   </div>
-                </a>
-              </div>
+                </div>
+              </form>
+
               <span className="footer-bebit-text05 TextTinyNormal">
                 <span className="">
                   Al suscribirte, aceptas nuestra Política de Privacidad y das
@@ -276,41 +301,41 @@ const FooterBebit = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 FooterBebit.defaultProps = {
-  iconXAlt: 'IconXI2016',
-  linkLink1: 'https://www.instagram.com',
-  textinputPlaceholder: 'placeholder',
+  iconXAlt: "IconXI2016",
+  linkLink1: "https://www.instagram.com",
+  textinputPlaceholder: "placeholder",
   oNIXLOGOWHITEPhotoroom1Src:
-    '/external/onixlogowhitephotoroom12016-vr5p-200h.webp',
-  wionpngwhite1Alt: 'wionpngwhite12016',
-  iconInstagramAlt: 'IconInstagramI2016',
-  iconYoutubeSrc: '/external/iconyoutubei2016-cggj.svg',
-  iconXSrc: '/external/iconxi2016-ulul.svg',
-  linkLink: 'https://www.facebook.com/bebit-hidratacion',
-  iconYoutubeAlt: 'IconYoutubeI2016',
-  elitewhite1Alt: 'Elitewhite12016',
-  iconFacebookSrc: '/external/iconfacebooki2016-c72n.svg',
-  linkLink2: 'https://www.twitter.com',
-  rootClassName: '',
-  iconLinkedInAlt: 'IconLinkedInI2016',
-  colorDarkSrc: '/LogosBebit/img_1122%202-200h.webp',
-  oNIXLOGOWHITEPhotoroom1Alt: 'ONIXLOGOWHITEPhotoroom12016',
-  hydroactivewhitevertical1Alt: 'Hydroactivewhitevertical12016',
+    "/external/onixlogowhitephotoroom12016-vr5p-200h.webp",
+  wionpngwhite1Alt: "wionpngwhite12016",
+  iconInstagramAlt: "IconInstagramI2016",
+  iconYoutubeSrc: "/external/iconyoutubei2016-cggj.svg",
+  iconXSrc: "/external/iconxi2016-ulul.svg",
+  linkLink: "https://www.facebook.com/bebit-hidratacion",
+  iconYoutubeAlt: "IconYoutubeI2016",
+  elitewhite1Alt: "Elitewhite12016",
+  iconFacebookSrc: "/external/iconfacebooki2016-c72n.svg",
+  linkLink2: "https://www.twitter.com",
+  rootClassName: "",
+  iconLinkedInAlt: "IconLinkedInI2016",
+  colorDarkSrc: "/LogosBebit/img_1122%202-200h.webp",
+  oNIXLOGOWHITEPhotoroom1Alt: "ONIXLOGOWHITEPhotoroom12016",
+  hydroactivewhitevertical1Alt: "Hydroactivewhitevertical12016",
   hydroactivewhitevertical1Src:
-    '/external/hydroactivewhitevertical12016-772k-200w.webp',
-  dividerAlt: 'DividerI2016',
-  iconFacebookAlt: 'IconFacebookI2016',
-  elitewhite1Src: '/external/elitewhite12016-w33x-200w.webp',
-  iconInstagramSrc: '/external/iconinstagrami2016-ip98.svg',
-  iconLinkedInSrc: '/external/iconlinkedini2016-0n0j.svg',
-  dividerSrc: '/external/divideri2016-e5rj-200h.webp',
-  colorDarkAlt: 'ColorDarkI2016',
-  text: 'X',
-  wionpngwhite1Src: '/external/wionpngwhite12016-fxdn-200h.webp',
-}
+    "/external/hydroactivewhitevertical12016-772k-200w.webp",
+  dividerAlt: "DividerI2016",
+  iconFacebookAlt: "IconFacebookI2016",
+  elitewhite1Src: "/external/elitewhite12016-w33x-200w.webp",
+  iconInstagramSrc: "/external/iconinstagrami2016-ip98.svg",
+  iconLinkedInSrc: "/external/iconlinkedini2016-0n0j.svg",
+  dividerSrc: "/external/divideri2016-e5rj-200h.webp",
+  colorDarkAlt: "ColorDarkI2016",
+  text: "X",
+  wionpngwhite1Src: "/external/wionpngwhite12016-fxdn-200h.webp",
+};
 
 FooterBebit.propTypes = {
   iconXAlt: PropTypes.string,
@@ -341,6 +366,6 @@ FooterBebit.propTypes = {
   colorDarkAlt: PropTypes.string,
   text: PropTypes.string,
   wionpngwhite1Src: PropTypes.string,
-}
+};
 
-export default FooterBebit
+export default FooterBebit;
