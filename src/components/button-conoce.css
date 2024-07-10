@@ -1,0 +1,11 @@
+.button-conoce-container {
+  display: flex;
+  position: relative;
+}
+.button-conoce-button {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  border-width: 0px;
+  background-color: #1f411e;
+}

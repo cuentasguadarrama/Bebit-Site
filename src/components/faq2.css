@@ -1,0 +1,129 @@
+.faq2-faq8 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.faq2-max-width {
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.faq2-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.faq2-text {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+}
+.faq2-text1 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+}
+.faq2-button {
+  align-self: flex-start;
+  text-decoration: none;
+}
+.faq2-list-item1 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.faq2-faq1-question {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.faq2-list-item2 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.faq2-faq2-question {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.faq2-list-item3 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.faq2-faq3-question {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.faq2-list-item4 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.faq2-faq4-question {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.faq2-list-item5 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.faq2-faq5-question {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+.faq2-root-class-name {
+  width: 1440px;
+}
+@media(max-width: 991px) {
+  .faq2-container {
+    flex-direction: column;
+  }
+  .faq2-root-class-name {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .faq2-faq8 {
+    padding: var(--dl-space-space-oneandhalfunits);
+  }
+  .faq2-max-width {
+    width: 475px;
+    padding-right: 0px;
+  }
+  .faq2-container {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .faq2-content {
+    width: 439px;
+  }
+  .faq2-button {
+    width: 428px;
+    align-self: center;
+  }
+  .faq2-list {
+    width: 439px;
+  }
+}

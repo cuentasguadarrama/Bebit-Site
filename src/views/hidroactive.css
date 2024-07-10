@@ -1,0 +1,1365 @@
+.hidroactive-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.hidroactive-hidroactive {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 0px;
+  flex-direction: column;
+}
+.hidroactive-header5 {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 0 64px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 0 64px;
+}
+.hidroactive-column {
+  gap: 24px;
+  width: 560px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-content {
+  gap: 24px;
+  display: flex;
+  z-index: 2;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.hidroactive-text001 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-actions {
+  gap: 16px;
+  display: flex;
+  padding: 16px 0 0;
+  align-items: flex-start;
+}
+.hidroactive-style-primary-small-false-darkmode-false-iconposition-noi {
+  gap: 8px;
+  display: flex;
+  padding: 12px 24px;
+  box-sizing: content-box;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgba(68, 104, 121, 1);
+}
+.hidroactive-text003 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-style-secondary-small-false-darkmode-true-iconposition-no {
+  gap: 8px;
+  display: flex;
+  padding: 12px 24px;
+  box-sizing: content-box;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hidroactive-text005 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-image {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 972px;
+  margin: auto;
+  z-index: 0;
+  position: absolute;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.hidroactive-product-header7 {
+  gap: 80px;
+  width: 100%;
+  display: flex;
+  padding: 80px 64px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hidroactive-content1 {
+  gap: 80px;
+  display: flex;
+  padding: 0 0 48px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.hidroactive-product {
+  gap: 16px;
+  width: 616px;
+  height: 700px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+.hidroactive-placeholder-image {
+  top: 0px;
+  left: 0px;
+  width: 616px;
+  height: 700px;
+  position: absolute;
+  flex-grow: 1;
+}
+.hidroactive-slider-buttons {
+  gap: 15px;
+  top: 326px;
+  left: 16px;
+  width: 48px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.hidroactive-button {
+  gap: 8px;
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hidroactive-icon {
+  width: 24px;
+  height: 24px;
+}
+.hidroactive-button1 {
+  gap: 8px;
+  top: 326px;
+  left: 552px;
+  width: 48px;
+  display: flex;
+  padding: 12px;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hidroactive-icon1 {
+  width: 24px;
+  height: 24px;
+}
+.hidroactive-slider-dots {
+  gap: 8px;
+  top: 656px;
+  left: 0px;
+  width: 616px;
+  height: 28px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.hidroactive-dot {
+  width: 8px;
+  height: 8px;
+}
+.hidroactive-dot1 {
+  width: 8px;
+  height: 8px;
+}
+.hidroactive-dot2 {
+  width: 8px;
+  height: 8px;
+}
+.hidroactive-dot3 {
+  width: 8px;
+  height: 8px;
+}
+.hidroactive-column1 {
+  gap: 32px;
+  width: 616px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-product-description {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-breadcrumbs {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.hidroactive-text007 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: center;
+  line-height: 150%;
+}
+.hidroactive-iconchevronright {
+  width: 16px;
+  height: 16px;
+}
+.hidroactive-text009 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: center;
+  line-height: 150%;
+}
+.hidroactive-iconchevronright1 {
+  width: 16px;
+  height: 16px;
+}
+.hidroactive-text011 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: center;
+  line-height: 150%;
+}
+.hidroactive-text013 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.hidroactive-price {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+.hidroactive-text015 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+.hidroactive-divider {
+  width: 0px;
+  height: 34px;
+  align-self: stretch;
+}
+.hidroactive-product-review {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.hidroactive-stars {
+  width: 96px;
+  height: 15px;
+}
+.hidroactive-text017 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: center;
+  line-height: 150%;
+}
+.hidroactive-description {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text019 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-list {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-list-item {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.hidroactive-text021 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-list-item1 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.hidroactive-text023 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-list-item2 {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.hidroactive-text025 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-form {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-input {
+  gap: 8px;
+  width: 616px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-text027 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-icon-false {
+  gap: 16px;
+  display: flex;
+  padding: 12px;
+  align-self: stretch;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hidroactive-text029 {
+  color: rgba(102, 102, 102, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-iconchevrondown {
+  width: 24px;
+  height: 24px;
+}
+.hidroactive-input1 {
+  gap: 8px;
+  width: 616px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-text031 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-variants {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.hidroactive-row {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.hidroactive-selected-true {
+  gap: 8px;
+  display: flex;
+  padding: 8px 16px;
+  box-sizing: content-box;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgba(68, 104, 121, 1);
+}
+.hidroactive-text033 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-selected-false {
+  gap: 8px;
+  width: 113px;
+  display: flex;
+  padding: 8px 16px;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgba(102, 102, 102, 1);
+}
+.hidroactive-text035 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-selected-false1 {
+  gap: 8px;
+  width: 124px;
+  display: flex;
+  opacity: 0.25;
+  padding: 8px 16px;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+}
+.hidroactive-text037 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-input2 {
+  gap: 8px;
+  width: 616px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-text039 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-type-default {
+  gap: 8px;
+  width: 64px;
+  display: flex;
+  padding: 12px;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hidroactive-text041 {
+  color: rgba(102, 102, 102, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-frame1 {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-form-submit {
+  gap: 16px;
+  width: 616px;
+  display: flex;
+  padding: 8px 0 0;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-style-primary-small-false-darkmode-false-iconposition-noi1 {
+  gap: 8px;
+  width: 171px;
+  display: flex;
+  padding: 12px 24px;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgba(68, 104, 121, 1);
+}
+.hidroactive-text042 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-navlink {
+  display: contents;
+}
+.hidroactive-style-secondary-small-false-darkmode-false-iconposition-n {
+  gap: 8px;
+  width: 171px;
+  display: flex;
+  padding: 12px 24px;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgba(102, 102, 102, 1);
+}
+.hidroactive-text044 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-text046 {
+  color: rgba(0, 0, 0, 1);
+  width: 616px;
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-accordion {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-accordion-item {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text048 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-text050 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-divider1 {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.hidroactive-accordion-item1 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text052 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-text054 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-divider2 {
+  width: auto;
+  height: 1px;
+  align-self: stretch;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.hidroactive-accordion-item2 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text056 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-text058 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-stats15 {
+  gap: 80px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  flex-direction: column;
+  padding-bottom: 50px;
+  background-color: rgba(68, 104, 121, 1);
+}
+.hidroactive-content2 {
+  gap: 80px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.hidroactive-content3 {
+  gap: 16px;
+  width: 616px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-section-title {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text060 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-content4 {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text062 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.hidroactive-text064 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-actions1 {
+  gap: 24px;
+  display: flex;
+  padding: 16px 0 0;
+  align-items: center;
+}
+.hidroactive-style-secondary-small-false-darkmode-true-iconposition-no1 {
+  gap: 8px;
+  display: flex;
+  padding: 12px 24px;
+  box-sizing: content-box;
+  align-items: center;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  justify-content: center;
+}
+.hidroactive-text066 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-navlink1 {
+  display: contents;
+}
+.hidroactive-style-link-small-false-darkmode-true-iconposition-trailin {
+  gap: 8px;
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.hidroactive-text068 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-iconchevronright2 {
+  width: 24px;
+  height: 24px;
+}
+.hidroactive-stats {
+  gap: 48px;
+  width: 616px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-row1 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.hidroactive-stat {
+  gap: 8px;
+  width: 292px;
+  display: flex;
+  padding: 0 0 0 32px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  flex-direction: column;
+}
+.hidroactive-text070 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 80px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-text072 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+.hidroactive-stat1 {
+  gap: 8px;
+  width: 292px;
+  display: flex;
+  padding: 0 0 0 32px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  flex-direction: column;
+}
+.hidroactive-text074 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 80px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-text076 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+.hidroactive-row2 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.hidroactive-stat2 {
+  gap: 8px;
+  width: 292px;
+  display: flex;
+  padding: 0 0 0 32px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  flex-direction: column;
+}
+.hidroactive-text078 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 80px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-text080 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+.hidroactive-stat3 {
+  gap: 8px;
+  width: 292px;
+  display: flex;
+  padding: 0 0 0 32px;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 0 0 0 2px;
+  flex-direction: column;
+}
+.hidroactive-text082 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 80px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-text084 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+.hidroactive-header111 {
+  gap: 80px;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-top: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  flex-direction: column;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-image: url("/Bebidas/a%20dynamic%20product%20sh%20(2)-900h.webp");
+}
+.hidroactive-content5 {
+  gap: 80px;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.hidroactive-columnone {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text086 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.hidroactive-columntwo {
+  gap: 16px;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.hidroactive-content6 {
+  gap: 16px;
+  display: flex;
+  padding: 0 46px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.hidroactive-text087 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-actions2 {
+  gap: 16px;
+  display: flex;
+  padding: 16px 0 0;
+  align-items: flex-start;
+}
+.hidroactive-style-primary-small-false-darkmode-false-iconposition-noi2 {
+  gap: 8px;
+  display: flex;
+  padding: 12px 24px;
+  box-sizing: content-box;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgba(68, 104, 121, 1);
+}
+.hidroactive-text089 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-navlink2 {
+  display: contents;
+}
+.hidroactive-style-secondary-small-false-darkmode-true-iconposition-no2 {
+  gap: 8px;
+  display: flex;
+  padding: 12px 24px;
+  box-sizing: content-box;
+  align-items: center;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hidroactive-text091 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.hidroactive-testimonial5 {
+  gap: 80px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  flex-direction: column;
+  padding-bottom: 50px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hidroactive-section-title1 {
+  gap: 24px;
+  width: 560px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-text093 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.hidroactive-text095 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-content7 {
+  gap: 64px;
+  width: 1280px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.hidroactive-column2 {
+  gap: 32px;
+  width: 608px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-stars1 {
+  width: 116px;
+  height: 19px;
+}
+.hidroactive-text097 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+.hidroactive-avatar {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.hidroactive-avatar-image {
+  width: 56px;
+  height: 56px;
+}
+.hidroactive-avatar-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text099 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-text101 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-logo2-color-dark {
+  width: 139.9993133544922px;
+  height: 55.999725341796875px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.hidroactive-column3 {
+  gap: 32px;
+  width: 608px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hidroactive-stars2 {
+  width: 116px;
+  height: 19px;
+}
+.hidroactive-text103 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 139.9999976158142%;
+}
+.hidroactive-avatar1 {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.hidroactive-avatar-image1 {
+  width: 56px;
+  height: 56px;
+}
+.hidroactive-avatar-content1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hidroactive-text105 {
+  color: rgba(68, 104, 121, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.hidroactive-text107 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+@media(max-width: 991px) {
+  .hidroactive-content1 {
+    flex-direction: column;
+  }
+  .hidroactive-content2 {
+    flex-direction: column;
+  }
+  .hidroactive-content7 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .hidroactive-header5 {
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .hidroactive-content {
+    width: 433px;
+  }
+  .hidroactive-image {
+    top: -20px;
+    left: -163px;
+    right: -59px;
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+  .hidroactive-product-header7 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .hidroactive-content1 {
+    flex-direction: column;
+  }
+  .hidroactive-product {
+    width: 431px;
+    height: 489px;
+    flex-direction: column;
+  }
+  .hidroactive-placeholder-image {
+    width: 400px;
+    height: 454px;
+  }
+  .hidroactive-button1 {
+    top: 338px;
+    left: 350px;
+    right: 45px;
+  }
+  .hidroactive-column1 {
+    width: 421px;
+  }
+  .hidroactive-stats15 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .hidroactive-content3 {
+    width: 444px;
+    margin-right: 0px;
+  }
+  .hidroactive-stats {
+    width: 100%;
+    padding-left: 50px;
+  }
+  .hidroactive-row1 {
+    flex-direction: column;
+  }
+  .hidroactive-row2 {
+    flex-direction: column;
+  }
+  .hidroactive-header111 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .hidroactive-testimonial5 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .hidroactive-section-title1 {
+    width: 405px;
+  }
+  .hidroactive-content7 {
+    width: 443px;
+    margin-right: 0px;
+    flex-direction: column;
+  }
+  .hidroactive-column2 {
+    width: 404px;
+  }
+  .hidroactive-column3 {
+    width: 406px;
+  }
+}
